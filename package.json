@@ -1,0 +1,65 @@
+{
+  "name": "remove-image-background",
+  "author": "Dhaval Halari",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.17",
+    "@mui/styled-engine-sc": "^5.10.16",
+    "@reduxjs/toolkit": "^1.5.1",
+    "@stripe/react-stripe-js": "^1.16.1",
+    "@stripe/stripe-js": "^1.46.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^1.2.1",
+    "blueimp-load-image": "^5.14.0",
+    "html-to-image": "^1.10.9",
+    "html2canvas": "^1.4.1",
+    "konva": "^8.3.14",
+    "re-resizable": "^6.9.9",
+    "react": "^17.0.2",
+    "react-before-after-slider": "^1.0.4",
+    "react-compare-image": "^3.3.0",
+    "react-component-export-image": "^1.0.6",
+    "react-device-detect": "^2.2.2",
+    "react-dom": "^17.0.2",
+    "react-draggable": "^4.4.5",
+    "react-image-picker": "^1.1.1",
+    "react-konva": "^17.0.2-6",
+    "react-multi-carousel": "^2.8.2",
+    "react-redux": "^7.2.3",
+    "react-resizable": "^3.0.4",
+    "react-router-dom": "^6.4.5",
+    "react-scripts": "4.0.3",
+    "react-stripe-checkout": "^2.6.3",
+    "redux-persist": "^6.0.0",
+    "request": "^2.88.2",
+    "simple-react-image-picker": "^1.1.17",
+    "styled-components": "^5.3.6",
+    "use-image": "^1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "set HTTPS=true&&react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
